@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Container} from "../StyledComponents/Container.styled";
+
 class Main extends Component {
     render() {
         const mainStyle ={

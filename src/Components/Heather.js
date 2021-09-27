@@ -7,7 +7,7 @@ class Heather extends Component {
             textAlign : "center"
         }
         return (
-            <HeaderStyled colorName="blue">
+            <HeaderStyled>
              <p style={heather_style}>Start Heather</p>
                 <h2>from header</h2>
             </HeaderStyled>
