@@ -1,9 +1,13 @@
+import {Fragment} from "react";
+import Heather from "./Components/Heather";
+import Main from "./Components/Main";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Angelique Styled Component</h1>
-    </div>
+      <Fragment>
+          <Heather />
+          <Main />
+      </Fragment>
   );
 }
 export default App;
