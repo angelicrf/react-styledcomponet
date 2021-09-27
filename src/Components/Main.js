@@ -3,12 +3,10 @@ import {Container} from "../StyledComponents/Container.styled";
 
 class Main extends Component {
     render() {
-        const mainStyle ={
-            color : "purple"
-        }
+
         return (
             <Container>
-                    <h1 style={mainStyle}>Angelique Styled Component</h1>
+                    <h1>Angelique Styled Component</h1>
             </Container>
         );
     }
